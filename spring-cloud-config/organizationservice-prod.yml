@@ -1,0 +1,6 @@
+app:
+  security:
+    encrypt: "prod-encrypt-update"
+jira:
+  api:
+    url: "jira.atlassian.com.vn"
