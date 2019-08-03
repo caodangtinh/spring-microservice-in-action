@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: '{cipher}AQA20P2QodLG2nnZeDun7qCSWPoggxc2kTQVDiZG5/kVIPJlyHIxO8L21BesCkHTwLLc/wrkwb3QSqOGlba5Y6rHRbaLDkTjcNB+zUy0Vn4oseW9gPNVRcDnthzplOt8DqNQ0kFesvIItN1qfHr9nmOjNU7unRpLBFQvB1V82hL/YfOyQGflQuZzVjPV7vRcntbjX7HQa12MRCQJDcoc6l6l2nBtKE7+iCX5Fbdnymom/xOctp2NS3XUxIzsp/2CaE0aOsYadnnJIo+OsWWxDPCljo/7yI6dfHfmhCfztrzGzkXzH1BAouV6W0FsA5AiZtlWkMGDkpTHc0LnnjhngWYxcFef3wVwxCY5h1Ywh9xILur3AAzpp2yU5KWu+vxDiE2XUjUwd2c4JpQZbXd+SmltmalqnQZH6q5Dkbs7iLpQ9xD2h8OaKPose3Ab1gQUcrg='
+    username: '{cipher}AQBef4rgLNpmb92ZEMwk4cQ7UA8hDxF0VLYtFdh+8tRBqTR/fYGij7Z4BbYAiiWqyirJfLJ1PQmpWmJEUjYHiVjc2g5Am/ofM3CJBFJlDmWOUrNCqGzhG6aepcaI77MPOb9nMso3uBSAKQh9YGj7x1kltxwJeKqqJeaz+T4whcZDaGmJ/JesOX/0GiXx5EO27D8kj3YkjGwuoPSrkInJDLdRF34+drhJGgR/XkZzYT5OgjAxTcjagDumrZ+mV9zP7XTLbEvpoLzaWvqgnqcC+ErkhetthI2fkAmtFEMU2mYPqQ2oAuDLQXsUmyol/xj+e/6B8fMZyBJcnutyzBBtKShdGprXFjesRQl6ExzLqUbIxvdYlZxhtl9L9OL2gnA5QQk='
+    password: '{cipher}AQBef4rgLNpmb92ZEMwk4cQ7UA8hDxF0VLYtFdh+8tRBqTR/fYGij7Z4BbYAiiWqyirJfLJ1PQmpWmJEUjYHiVjc2g5Am/ofM3CJBFJlDmWOUrNCqGzhG6aepcaI77MPOb9nMso3uBSAKQh9YGj7x1kltxwJeKqqJeaz+T4whcZDaGmJ/JesOX/0GiXx5EO27D8kj3YkjGwuoPSrkInJDLdRF34+drhJGgR/XkZzYT5OgjAxTcjagDumrZ+mV9zP7XTLbEvpoLzaWvqgnqcC+ErkhetthI2fkAmtFEMU2mYPqQ2oAuDLQXsUmyol/xj+e/6B8fMZyBJcnutyzBBtKShdGprXFjesRQl6ExzLqUbIxvdYlZxhtl9L9OL2gnA5QQk='
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+name:
+  prefix: '{cipher}AQCCdLw1FkayNoUKGn6KElKfLFsEdv10NsHM2sWiLzm8INSvVLBQ5EMijZGRw8UqsP6G8KGvaKt9lBUvVsrEMuJ4ksqPWTUjSMmmCVx75OmB+BUar60rknKJFfQEUkYeGJaw5epAp0Ga5oRhTnAnJO1QUBzN0CSJXaiEkyaZVkqwp824edQKHzBIdOcSGuO+6b9wWOO7GuXIvLCAZqwhpiYS9dgFfDhmTZRgZBBeMn6bpNOPE1wDZ3veV32YYHGh3i+y0NVb4ovGoD6864vVq8MFCve6p2yIbLh9Jetu3ufo/tjk49nzeBMV03ivhsrOHit2nNwXfq78kvqFzBlriscdsxpdyzsQq6jOn3UpMy2uSywnRWKcKHHTI7qGSq3L2QU='
+endpoint:
+  organizationServiceEndpoint: http://localhost:8082/organization-service/v1/organizations
