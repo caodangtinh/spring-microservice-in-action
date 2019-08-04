@@ -6,14 +6,14 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "endpoint")
 @Component
 public class ServerEndpointConfig {
-	private String organizationServiceEndpoint;
+    private String organizationServiceEndpoint;
 
-	public String getOrganizationServiceEndpoint() {
-		return organizationServiceEndpoint;
-	}
+    public String getOrganizationServiceEndpoint() {
+        return organizationServiceEndpoint;
+    }
 
-	public void setOrganizationServiceEndpoint(String organizationServiceEndpoint) {
-		this.organizationServiceEndpoint = organizationServiceEndpoint;
-	}
-	
+    public void setOrganizationServiceEndpoint(String organizationServiceEndpoint) {
+        this.organizationServiceEndpoint = organizationServiceEndpoint;
+    }
+
 }

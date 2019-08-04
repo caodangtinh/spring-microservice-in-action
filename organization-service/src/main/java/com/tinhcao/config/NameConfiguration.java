@@ -6,14 +6,14 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "name")
 @Component
 public class NameConfiguration {
-	private String prefix;
+    private String prefix;
 
-	public String getPrefix() {
-		return prefix;
-	}
+    public String getPrefix() {
+        return prefix;
+    }
 
-	public void setPrefix(String prefix) {
-		this.prefix = prefix;
-	}
-	
+    public void setPrefix(String prefix) {
+        this.prefix = prefix;
+    }
+
 }
