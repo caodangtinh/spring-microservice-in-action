@@ -1,0 +1,2 @@
+2019-08-06 11:09:30,525 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-08-06 11:09:31,795 INFO org.springframework.boot.StartupInfoLogger [main] Started GatewayServiceApplication in 2.023 seconds (JVM running for 2.302)

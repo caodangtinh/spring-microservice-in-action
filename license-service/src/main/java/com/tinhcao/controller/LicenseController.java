@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class LicenseController {
     @Autowired
     private LicenseService licenseService;
+    
+    @GetMapping(value = "/")
+    public String home() {
+    	return "licensingservice";
+    }
 
     @GetMapping(value = "/{organizationId}/{licenseId}")
     public License getLicenses(@PathVariable("organizationId") String organizationId,

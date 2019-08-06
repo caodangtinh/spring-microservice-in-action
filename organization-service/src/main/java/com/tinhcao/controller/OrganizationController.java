@@ -15,6 +15,11 @@ public class OrganizationController {
 
     @Autowired
     private OrganizationService organizationService;
+    
+    @GetMapping(value = "/")
+    public String home() {
+    	return "organizationservice";
+    }
 
     @GetMapping(value = "/{organizationId}")
     public Organization getOrganization(@PathVariable("organizationId") String organizationId) {
